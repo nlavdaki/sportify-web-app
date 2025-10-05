@@ -1,0 +1,43 @@
+# === General ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.log
+*.tmp
+
+# === Environment / Config ===
+.env
+.env.local
+.env.*.local
+
+# === Dependencies / Vendors ===
+/vendor/
+/node_modules/
+/db_data/
+/uploads/
+/backup/
+
+# === IDE / System ===
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.bak
+
+# === Build / Container ===
+/tmp/
+/dist/
+/coverage/
+docker-compose.override.yml
+*.tar
+*.zip
+
+# === Screenshots & Assets (keep core images) ===
+public/img/screens/raw/
+public/img/screens/*.bak
+
+# === Database dumps ===
+*.sql~
+*.sql.gz
+*.dump
